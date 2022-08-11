@@ -11,14 +11,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ваня лох"
-        app:layout_constraintBottom_toTopOf="@id/vpnButton"
+        app:layout_constraintBottom_toTopOf="@id/vpnSwitch"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Switch
+        android:id="@+id/vpnSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="176dp"
+        android:checked="true"
+        android:switchMinWidth="100dp"
+        android:text="VPN:"
+        android:textOff="OFF"
+        android:textOn="ON"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <!--Button
         android:id="@+id/vpnButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,6 +40,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first"  />
+        app:layout_constraintTop_toBottomOf="@id/textview_first"  -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
